@@ -1,0 +1,168 @@
+/* Reset + Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #fdf7ff;
+  color: #442c4c;
+  line-height: 1.6;
+}
+
+/* Container */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Header */
+header {
+  background: linear-gradient(to bottom, #e8d5ff, #fbefff);
+  padding: 4rem 2rem;
+  color: #5a2d82;
+}
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+/* Testimonials */
+#testimonials {
+  background: #fbeaff;
+  padding: 4rem 2rem;
+  color: #5a2d82;
+}
+
+.testimonial-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.testimonial {
+  background: #fff0f8;
+  padding: 1.5rem;
+  border-radius: 14px;
+  box-shadow: 0 4px 8px rgba(195, 140, 255, 0.15);
+  font-style: italic;
+}
+
+.testimonial span {
+  display: block;
+  margin-top: 1rem;
+  text-align: right;
+  color: #7e4c96;
+  font-style: normal;
+}
+
+/* Mockup */
+#mockup {
+  background: #fef6ff;
+  padding: 4rem 2rem;
+}
+
+.mockup-img {
+  max-width: 100%;
+  height: 150px;
+  border-radius: 16px;
+  box-shadow: 0 6px 14px rgba(150, 100, 200, 0.2);
+  margin: 2rem 0;
+}
+
+/* Newsletter */
+#newsletter {
+  background: #e8d5ff;
+  padding: 4rem 2rem;
+  color: #452d5c;
+}
+
+#newsletter form {
+  margin-top: 1rem;
+}
+
+#newsletter input {
+  padding: 0.7rem;
+  width: 250px;
+  max-width: 90%;
+  border: none;
+  border-radius: 30px;
+  margin-right: 0.5rem;
+}
+
+#newsletter button {
+  padding: 0.7rem 1.5rem;
+  background-color: #c08bf0;
+  border: none;
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+#newsletter button:hover {
+  background-color: #a76adb;
+}
+
+.cta {
+  display: inline-block;
+  background: #d8b4f8;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.cta:hover {
+  background: #c08bf0;
+}
+
+/* About Section */
+#about {
+  background: #fff1f9;
+  color: #603e6d;
+  padding: 4rem 2rem;
+}
+
+#about h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#about p {
+  max-width: 700px;
+  margin: 0 auto 2rem auto;
+}
+
+#about ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#about li {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+/* Footer */
+footer {
+  background: #f8e8ff;
+  text-align: center;
+  padding: 1rem;
+  color: #7a4a9d;
+  font-size: 0.9rem;
+}
