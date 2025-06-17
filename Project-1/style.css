@@ -1,0 +1,258 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* For Big Screens */
+@media(min-width: 990px) {
+
+    .container {
+        margin: 60px auto;
+        display: flex;
+        gap: 40px;
+        width: 1000px;
+        transition: 0.25s;
+    }
+
+    .feed {
+        border: 2px solid rgb(217, 211, 211);
+        border-radius: 20px;
+        padding: 20px;
+        margin: 5px;
+        box-sizing: border-box;
+    }
+
+    .profile {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    .username {
+        font-size: 15px;
+        color: rgb(113, 110, 110);
+    }
+
+    .dp {
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .post {
+        width: 100%;
+        border-radius: 15px;
+        transition: .25s;
+    }
+
+    .bi {
+        font-size: 25px;
+    }
+
+    .reactions {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .reactions-left {
+        display: flex;
+        gap: 15px;
+    }
+
+    .sidebar-title {
+        margin: 0;
+    }
+
+    .links {
+        display: flex;
+        gap: 5px;
+    }
+
+    .link {
+        height: 50px;
+        margin-bottom: 20px;
+    }
+
+    .logo {
+        width: 300px;
+        margin: 20px;
+        transition: 0.25s;
+    }
+
+    .btn {
+        background-color: black;
+        color: aliceblue;
+        border-radius: 20px;
+        width: 150px;
+        height: 35px;
+        padding: 15px auto;
+        font-size: 15px;
+        border: none;
+        transition: 0.25s;
+    }
+
+    .story-container {
+        width: 1000px;
+        margin: 50px auto;
+        display: flex;
+        gap: 15px;
+    }
+
+    .story-img {
+        border: 4px solid rgb(241, 137, 154);
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+        object-fit: cover;
+        transition: 0.25s;
+    }
+
+    .story {
+        text-align: center;
+    }
+
+    .suggestion{
+        display: flex;
+    }
+
+    .sugg-img{
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        display: flex;
+    }
+
+    .sugg-name{
+        margin: 20px;
+    }
+
+}
+
+/* For Small Screens */
+@media(max-width: 989px) {
+
+
+    .container {
+        margin: 60px auto;
+    }
+
+    .feed {
+        border: 2px solid rgb(217, 211, 211);
+        border-radius: 20px;
+        padding: 10px;
+        margin: 25px 10px;
+        transition: 0.25px;
+    }
+
+    .profile {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    .username {
+        font-size: 15px;
+        color: rgb(113, 110, 110);
+    }
+
+    .dp {
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .post {
+        width: 100%;
+        border-radius: 15px;
+        transition: .25s;
+    }
+
+    .bi {
+        font-size: 25px;
+    }
+
+    .reactions {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .reactions-left {
+        display: flex;
+        gap: 15px;
+    }
+
+    .sidebar-title {
+        margin: 0;
+    }
+
+    .links {
+        display: flex;
+        gap: 5px;
+    }
+
+    .link {
+        height: 50px;
+        margin-bottom: 20px;
+    }
+
+    .logo {
+        width: 300px;
+        margin: 20px;
+        transition: 0.25s;
+    }
+
+    .btn {
+        background-color: black;
+        color: aliceblue;
+        border-radius: 20px;
+        width: 150px;
+        height: 35px;
+        padding: 15px auto;
+        font-size: 15px;
+        border: none;
+        transition: 0.25s;
+    }
+
+    .story-container {
+        width: 1000px;
+        margin: 50px auto;
+        display: flex;
+        gap: 15px;
+    }
+
+    .story-img {
+        border: 4px solid rgb(241, 137, 154);
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+        object-fit: cover;
+        transition: 0.25s;
+    }
+
+    .story {
+        text-align: center;
+    }
+
+    .suggestion{
+        display: flex;
+        transition: 0.25s;
+    }
+
+    .sugg-img{
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        object-fit: cover;
+        align-items: center;
+        transition: 0.25s;
+    }
+
+    .sugg-name{
+        display: grid;
+        transition: 0.25s;
+    }
+
+}
